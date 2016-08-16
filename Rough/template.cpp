@@ -10,13 +10,8 @@
 using namespace std;
 
 typedef long long ll;
-const int N = int(1e5+5);
 
-int main() {
-
-	string s;
-	cin >>s;
-	cout <<s;
+int main(int argc, char const *argv[]) {
 
 	return 0;
 }

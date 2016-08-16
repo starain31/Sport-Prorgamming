@@ -13,10 +13,17 @@ typedef long long ll;
 const int N = int(1e5+5);
 
 int main() {
+	double a, b; cin >>a >>b;
+	int n; cin >>n;
+	double m = DBL_MAX;
+	double t, x, y, v;
 
-	string s;
-	cin >>s;
-	cout <<s;
+	while(n--) {
+		cin >>x >>y >>v;
+		t = sqrt( (x-a)*(x-a) + (y-b)*(y-b) )/v;
+		m = min(m, t);
+	}
+	printf("%.6lf", m);
 
 	return 0;
 }

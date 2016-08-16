@@ -12,11 +12,20 @@ using namespace std;
 typedef long long ll;
 const int N = int(1e5+5);
 
-int main() {
+int n;
+string s;
+string ps;
+int c[N];
 
-	string s;
-	cin >>s;
-	cout <<s;
+int main() {
+	cin >>n;
+	for(int i = 0; i < n; i++) {
+		cin >>c[i];
+	}
+	cin >>ps;
+	while(--n) {
+		cin >>s;
+		for(int i = 0; i < 
 
 	return 0;
 }
